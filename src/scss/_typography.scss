@@ -14,4 +14,14 @@
   font-family: 'Ombudsman';
   src: url(../fonts/OmbudsmanStencil.ttf);
 }
+@font-face {
+  font-display: fallback;
+  font-family: 'Opensans-bold';
+  src: url(../fonts/OpenSans-bold.ttf);
+}
+@font-face {
+  font-display: fallback;
+  font-family: 'Opensans';
+  src: url(../fonts/OpenSans-regular.ttf);
+}
 // TYPOGRAPHY START

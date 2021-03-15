@@ -13,6 +13,16 @@
   font-style: normal;
   font-weight: normal;
 }
+@mixin ff-opensans {
+  font-family: $opensans;
+  font-style: normal;
+  font-weight: normal;
+}
+@mixin ff-opensans-bold {
+  font-family: $opensans-bold;
+  font-style: normal;
+  font-weight: normal;
+}
 
 @mixin title-xl {
   font-size: $title-xl;
@@ -49,7 +59,7 @@
 }
 @mixin body-s {
   font-size: $body-s;
-  line-height: px;
+  line-height: 18px;
 }
 @mixin body-xs {
   font-size: $body-xs;
