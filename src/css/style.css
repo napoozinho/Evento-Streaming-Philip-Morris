@@ -125,58 +125,6 @@ input {
         opacity: 0.3; }
 
 /* Pages */
-.body-landing-temporal {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: nowrap;
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  padding: 24px 0;
-  overflow-y: auto;
-  background-image: url("./../images/landing/bkg.jpg"), linear-gradient(145deg, #d9135e 0%, #210015 27%, #000014 40%, #01004e 67%, #000a45 100%);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed; }
-  .body-landing-temporal header {
-    width: 100%;
-    max-width: 500px;
-    padding: 24px;
-    text-align: center; }
-    .body-landing-temporal header img {
-      width: 100%;
-      max-width: 100px;
-      margin-bottom: 20px; }
-    .body-landing-temporal header h1 {
-      font-family: "Ombudsman";
-      font-style: normal;
-      font-weight: normal;
-      font-size: 60px;
-      line-height: 60px;
-      margin-bottom: 20px;
-      color: white; }
-      @media (max-width: 480px) {
-        .body-landing-temporal header h1 {
-          font-size: 48px;
-          line-height: 48px; } }
-    .body-landing-temporal header h2 {
-      font-family: "Cond";
-      font-style: normal;
-      font-weight: normal;
-      font-size: 36px;
-      line-height: px;
-      color: white; }
-      @media (max-width: 480px) {
-        .body-landing-temporal header h2 {
-          font-size: 24px;
-          line-height: px; } }
-  @media (max-width: 480px) {
-    .body-landing-temporal {
-      justify-content: start; } }
-
 .body-login {
   display: flex;
   flex-direction: row;
